@@ -73,7 +73,7 @@ body {
         transform: scale(0.2);
     }
 
-    100% {
+    200% {
         transform: scale(1.2);
     }
 }
@@ -98,6 +98,11 @@ body {
 
     .subtitulo {
         font-size: 4em;
+    }
+
+    #container {
+        height: 100dvh;
+        padding: 10px;
     }
 
     .frase {
